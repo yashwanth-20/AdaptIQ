@@ -14,9 +14,9 @@ export default function Home() {
           <svg className="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path></svg>
       </a>
       <Image src={'/knowledge.png'} alt="image" 
-      width={80} height={80} className="absolute -rotate-12"/>
+      width={80} height={80} className="hidden sm:block absolute -rotate-12"/>
       <Image src={'/code.png'} alt="image" 
-      width={80} height={80} className="absolute rotate-12 right-36"/>
+      width={80} height={80} className="hidden sm:block absolute rotate-12 right-36"/>
       <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
       AI-Powered <span className='text-primary'>Exam Prep </span><br></br> Material Generator  </h1>
       <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Your AI Exam Prep Companion: Effortless Study Material at Your Fingertips</p>

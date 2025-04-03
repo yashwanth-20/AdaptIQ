@@ -12,7 +12,7 @@ import {
 function TopicInput({setTopic,setDifficultyLevel}) {
   return (
     <div className='mt-10 w-full flex flex-col'>
-        <h2>Enter topic or paster the content for which you want to generate study material</h2>
+        <h2>Enter topic or paste the content for which you want to generate study material</h2>
         <Textarea placeholder='Start writing here' 
         className="mt-2 w-full" onChange={(event)=>setTopic(event.target.value)} />
 

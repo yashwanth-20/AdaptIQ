@@ -1,4 +1,4 @@
-"use client"
+/*"use client"
 import { CourseCountContext } from '@/app/_context/CourseCountContext'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
@@ -69,9 +69,9 @@ function SideBar() {
   )
 }
 
-export default SideBar
+export default SideBar*/
 
-/*"use client"
+"use client"
 import { CourseCountContext } from '@/app/_context/CourseCountContext'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
@@ -150,4 +150,4 @@ function SideBar() {
     );
 }
 
-export default SideBar;*/
+export default SideBar;
